@@ -21,9 +21,10 @@ const HeaderComponent = ({ header }: { header: Header }) => {
       .filter(Boolean)
       .join(' ')}
   >
-      <Gutter className={classes.wrap}>
+      <Gutter className={classes.wrap} >
         <Link href="/">
-          <Image 
+          <Image
+            className={classes.logo}
             src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/payload/src/admin/assets/images/payload-logo-light.svg" 
             alt="logo" 
             width={170} 
