@@ -26,7 +26,7 @@ const HeaderComponent = ({ header }: { header: Header }) => {
           <Image
             className={classes.logo}
             src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/payload/src/admin/assets/images/payload-logo-light.svg" 
-            alt="logo" 
+            alt="Payload Logo" 
             width={170} 
             height={50} 
           />             
