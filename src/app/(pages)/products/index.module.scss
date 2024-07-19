@@ -9,8 +9,9 @@
   grid-template-columns: 1fr 75%;
   gap: 60px;
 
-  @include large-break {
+  @include mid-break {
     grid-template-columns: 100%;
     gap: 48px;
   }
 }
+

@@ -28,7 +28,7 @@
   margin-top: 20px;
 
   @include large-break {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   @include small-break {
