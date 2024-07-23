@@ -29,11 +29,21 @@
   height: min-content;
   border-radius: 10px;
 }
+:global([data-theme="dark"]) {
+  .nav {
+    border: 1px solid rgb(40, 40, 40);
+  }
+}
 
 .navItem {
   display: flex;
   gap: 12px;
   padding: 20px;
+}
+:global([data-theme="dark"]) {
+  .navIcon{
+    filter: invert(1);
+  }
 }
 
 .personalInfo {

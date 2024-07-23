@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               {profileNavItems.map(item => (
                 <li key={item.title}>
                   <Link href={item.url} className={classes.navItem}>
-                    <Image src={item.icon} alt={item.title} width={24} height={24} />
+                    <Image src={item.icon} alt={item.title} width={24} height={24} className={classes.navIcon}/>
                     <p>{item.title}</p>
                   </Link>
                 </li>
