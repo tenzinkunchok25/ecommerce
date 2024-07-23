@@ -7,3 +7,9 @@
 .quantity {
   margin-left: 2px;
 }
+
+:global([data-theme="dark"]) {
+  .logo {
+    filter: invert(1);
+  }
+}
