@@ -32,7 +32,7 @@
   }
 
   @include small-break {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
