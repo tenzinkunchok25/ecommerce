@@ -48,8 +48,6 @@ export const AddToCartButton: React.FC<{
                 product,
                 quantity,
               })
-
-              router.push('/cart')
             }
           : undefined
       }
